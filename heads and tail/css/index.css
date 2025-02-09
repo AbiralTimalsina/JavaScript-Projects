@@ -1,0 +1,42 @@
+*{
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    padding: 0px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#username_get, #game_div{
+    padding: 10px;
+    border-radius: 10px;
+    background: #e7e7e7;
+    margin-top: 10px;
+}
+
+input, button{
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.side_chooser{
+    padding: 10px;
+    background-color:#fffbe5 ;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+#results, #flipping{
+    padding: 10px;
+    background-color:#fffbe5 ;
+    text-align: center;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
