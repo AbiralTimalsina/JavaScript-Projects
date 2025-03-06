@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Simon Says Game</h1>
-    <h2>Press any key to start the game</h2>
+    <h1 style="margin-top: 0;">Simon Says Game</h1>
+    <h2 style="margin-bottom:0 ;">Press any key to start the game</h2>
     <div class="btn-container">
         <div class="line-one">
-            <div class="btn red"  type="button"></div>
-            <div class="btn green" type="button"></div>
+            <div class="btn red"  type="button" id="red"></div>
+            <div class="btn green" type="button" id="green"></div>
         </div>
         <div class="line-two">
-            <div class="btn yellow" type="button"></div>
-            <div class="btn purple" type="button"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+            <div class="btn purple" type="button" id="purple"></div>
         </div>
     </div>
+    <h2 style="margin-top: 0;">High Score: <span id="hiScore">0</span></h2>
 
     <script src="app.js"></script>
 </body>
